@@ -1,0 +1,35 @@
+.Button {
+    background-color: #000000;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 12px;
+
+    min-height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.Button:disabled {
+    background-color: #484848;
+    color: rgb(100, 116, 139);
+
+    cursor: auto;
+}
+
+.Button:hover {
+    opacity: 0.8;
+}
+
+.Button:disabled:hover {
+    opacity: 1;
+}

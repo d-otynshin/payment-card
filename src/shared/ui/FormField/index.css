@@ -1,0 +1,59 @@
+.Input {
+    background-color: #FFFFFF;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(226, 232, 240);
+    border-radius: 12px;
+
+    outline-color: black;
+
+    min-height: 48px;
+    font-size: 14px;
+
+    padding: 16px;
+    margin: 0;
+
+    width: 100%;
+}
+
+.Input:hover {
+    border-color: black;
+}
+
+.Input--error {
+    border-color: red;
+}
+
+.Input--error:hover {
+    border-color: red;
+}
+
+
+.Fieldset {
+    position: relative;
+    border: none;
+
+    margin: 0 20px 14px 0;
+    padding: 0;
+}
+
+.Fieldset:last-of-type {
+    margin-right: 0;
+}
+
+.Legend {
+    font-size: 12px;
+    font-weight: 500;
+
+    margin: 0 0 4px 0;
+}
+
+.Error {
+    position: absolute;
+    bottom: -18px;
+    left: 14px;
+
+    color: rgb(239, 68, 68);
+    font-size: 12px;
+}
