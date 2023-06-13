@@ -24,7 +24,7 @@ The project is divided into several layers, including the app layer, pages layer
 ## Usage
 
 1. Start the development server: `npm start`
-2. Open the web browser and visit: `http://localhost:3000`
+2. Open the web browser and visit: `http://localhost:3000/ord_A3BhJRTSEv`
 
 ## Folder Structure
 
